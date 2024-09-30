@@ -1,0 +1,46 @@
+* {
+    margin: 0%;
+    padding: 0%;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: "roboto slap";, serif;
+    display: flex;
+    flex-direction: column;
+    gap: 1.5rem;
+}
+
+header, footer{
+    color: beige;
+    background-color: black;
+    width: 100vw;
+}
+
+nav{
+    padding: 1cm;
+    width: 100%;
+}
+
+.nav-ul{
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
+
+a{
+    color: rgb(255, 255, 255);
+    text-decoration: none;
+}
+
+nav li {
+    list-style: none;
+}
+
+#search{
+    border: none;
+    border-radius: 100px;
+    padding: 8px 0 8px 29px;
+    font-size: medium;
+}
+
